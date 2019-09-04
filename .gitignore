@@ -41,3 +41,11 @@ hs_err_pid*
 #common
 **/out
 **.class
+
+
+.mvn/
+mvnw
+mvnw.cmd
+pom-JITPACK.xml
+pom-SNAPSHOT.xml
+

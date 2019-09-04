@@ -3,6 +3,7 @@ package BookTests;
 import static org.junit.jupiter.api.Assertions.fail;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -23,10 +24,10 @@ class StandardTests {
     void succeedingTest() {
     }
 
-    @Test
+/*    @Test
     void failingTest() {
         fail("a failing test");
-    }
+    }*/
 
     @Test
     @Disabled("for demonstration purposes")
